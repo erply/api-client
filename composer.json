@@ -1,0 +1,14 @@
+{
+  "name": "erply/api-client",
+  "description": "A very simple wrapper to Erply API. Contains a sendRequest() method that takes a call name and input parameters, and returns API output as string.",
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "Erply\\ApiClient\\": "library/"
+    }
+  },
+  "require": {
+    "ext-curl": "*",
+    "ext-json": "*"
+  }
+}
